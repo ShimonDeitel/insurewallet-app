@@ -1,0 +1,41 @@
+{
+  "identifier" : "InsurewalletStoreKit",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "insurewallet.pro.monthly.group",
+      "localizations" : [],
+      "name" : "Insurewallet Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "2.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "insurewallet.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Unlock Multiple policies/vehicles with agent contact and claim history log",
+              "displayName" : "Insurewallet Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "com.shimondeitel.insurewallet.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Insurewallet Pro Monthly",
+          "subscriptionGroupID" : "insurewallet.pro.monthly.group",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
